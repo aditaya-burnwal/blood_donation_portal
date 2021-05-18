@@ -1,0 +1,11 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
+#title{
+    color: blanchedalmond;
+    float: right;
+    margin-right: 200px;
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blooddonate.css">
+    <title>Donate Blood</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="donation-form-box">
+            <form id="login" class="input-group">
+                <div align="center">
+                    <table>
+                        <tr>
+                            <td>Blood Group : </td>
+                            <td>
+                                <select id="bl-gr" name="blgr">
+                                    <option value="A +ve">A +ve</option>
+                                    <option value="A -ve">A -ve</option>
+                                    <option value="B +ve">B +ve</option>
+                                    <option value="B -ve">B -ve</option>
+                                    <option value="O +ve">O +ve</option>
+                                    <option value="O -ve">O -ve</option>
+                                    <option value="AB +ve">AB +ve</option>
+                                    <option value="AB -ve">AB -ve</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select Country : </td>
+                            <td>
+                                <select id="countySel">
+                                    <option value="">-- Select country--</option>
+                                    <option value="India">India</option>
+                                    <option value="USA">USA</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select State : </td>
+                            <td>
+                                <select id="stateSel">
+                                    <option value="">-- Select State--</option>
+                                    <optgroup label="India">
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Delhi">Delhi</option>
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                    </optgroup>
+                                    <optgroup label="USA">
+                                        <option value="New Mexico">New Mexico</option>
+                                        <option value="Washington">Washington</option>
+                                        <option value="Texas">Texas</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Select District : </td>
+                            <td>
+                                <select id="districtSel">
+                                    <option value="">-- Select District--</option>
+                                    <optgroup label="India">
+                                    <optgroup label="Bihar">
+                                        <option value="Bhagalpur">Bhagalpur</option>
+                                        <option value="Patna">Patna</option>
+                                    </optgroup>
+                                    <optgroup label="Jharkhand">
+                                        <option value="Deoghar">Deoghar</option>
+                                        <option value="Dhanbad">Dhanbad</option>
+                                    </optgroup>
+                                    <optgroup label="Delhi">
+                                        <option value="New Delhi">New Delhi</option>
+                                    </optgroup>
+                                    <optgroup label="West Bengal">
+                                        <option value="Kolkata">Kolkata</option>
+                                        <option value="North 24 Parganas">North 24 Parganas</option>
+                                        <option value="Howrah">Howrah</option>
+                                    </optgroup>
+                                    </optgroup>
+                                    <optgroup label="USA">
+                                        <option value="New Mexico">New Mexico</option>
+                                        <option value="Washington">Washington</option>
+                                        <option value="Texas">Texas</option>
+                                    </optgroup>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Select City : </td>
+                            <td>
+                                <select id="citySel">
+                                    <option value="">-- Select City--</option>
+                                    <optgroup label="Bhagalpur">
+                                        <option value="Bhagalpur">Bhagalpur</option>
+                                        <option value="Sultanganj">Sultanganj</option>
+                                    </optgroup>
+                                    <optgroup label="Patna">
+                                        <option value="Danapur">Danapur</option>
+                                        <option value="Patna">Patna</option>
+                                    </optgroup>
+                                    <optgroup label="Deoghar">
+                                        <option value="Deoghar">Deoghar</option>
+                                        <option value="Madhupur">Madhupur</option>
+                                    </optgroup>
+                                    <optgroup label="Dhanbad">
+                                        <option value="Dhanbad">Dhanbad</option>
+                                    </optgroup>
+                                    <optgroup label="Delhi">
+                                        <option value="New Delhi">New Delhi</option>
+                                        <option value="Firozabad">Firozabad</option>
+                                    </optgroup>
+                                    <optgroup label="West Bengal">
+                                        <option value="Kolkata">Kolkata</option>
+                                        <option value="Salt Lake City">Salt Lake City</option>
+                                        <option value="Howrah">Howrah</option>
+                                    </optgroup>
+                                    <optgroup label="USA">
+                                        <option value="Las Cruces">Las Cruces</option>
+                                        <option value="New York City">New York City</option>
+                                        <option value="Chicago">Chicago</option>
+                                        <option value="Brownsville">Brownsville</option>
+                                        <option value="Seattle">Seattle</option>
+                                    </optgroup>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Patient Name : </td>
+                            <td>
+                                <input type="text" name="patient-name" placeholder="Enter Patient's Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Patient Prescription : </td>
+                            <td>
+                                <input type="file" name="patient-details">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Contact No. : </td>
+                            <td>
+                                <input type=""
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+<!-- 
+<script>
+    var stateObject = {
+    "India": { "Delhi": ["new Delhi", "North Delhi"],
+    "Kerala": ["Thiruvananthapuram", "Palakkad"],
+    "Goa": ["North Goa", "South Goa"],
+    },
+    "Australia": {
+    "South Australia": ["Dunstan", "Mitchell"],
+    "Victoria": ["Altona", "Euroa"]
+    }, "Canada": {
+    "Alberta": ["Acadia", "Bighorn"],
+    "Columbia": ["Washington", ""]
+    },
+    }
+    window.onload = function () {
+    var countySel = document.getElementById("countySel"),
+    stateSel = document.getElementById("stateSel"),
+    districtSel = document.getElementById("districtSel");
+    for (var country in stateObject) {
+    countySel.options[countySel.options.length] = new Option(country, country);
+    }
+    countySel.onchange = function () {
+    stateSel.length = 1; // remove all options bar first
+    districtSel.length = 1; // remove all options bar first
+    if (this.selectedIndex < 1) return; // done
+    for (var state in stateObject[this.value]) {
+    stateSel.options[stateSel.options.length] = new Option(state, state);
+    }
+    }
+    countySel.onchange(); // reset in case page is reloaded
+    stateSel.onchange = function () {
+    districtSel.length = 1; // remove all options bar first
+    if (this.selectedIndex < 1) return; // done
+    var district = stateObject[countySel.value][this.value];
+    for (var i = 0; i < district.length; i++) {
+    districtSel.options[districtSel.options.length] = new Option(district[i], district[i]);
+    }
+    }
+    }
+    </script> -->
+
+</html>

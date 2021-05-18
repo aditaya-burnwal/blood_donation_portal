@@ -1,0 +1,119 @@
+.Menubar {
+    background-color: rgb(182, 182, 182);
+    height: 50px;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.Menu {
+    list-style-type: none;
+}
+
+#start {
+    display: inline;
+    margin-right: 90px;
+}
+
+a {
+    align-items: flex-end;
+}
+
+.TITLE {
+    background-color: rgb(224, 85, 30);
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px
+}
+
+.Testimonials {
+    background-color: gold;
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px
+}
+
+.NewsFeed {
+    background-color: mediumturquoise;
+    text-align: left;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px;
+    border: Solid 2px blue;
+}
+
+.SERVICES {
+    background-color: rgb(185, 15, 201);
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px
+}
+
+.Donations {
+    background-color: rgb(250, 0, 0);
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px
+}
+
+.Information {
+    background-color: rgb(136, 255, 0);
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px
+}
+
+.ContactUs {
+    background-color: rgb(255, 7, 152);
+    text-align: center;
+    height: 150px;
+    font-size: 30px;
+    padding: 30px
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* linkedin */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    height: 10px;
+    width: 10px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 50%;
+  }

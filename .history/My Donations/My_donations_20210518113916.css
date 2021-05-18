@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+  }
+  
+
+
+.header{
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+
+#title{
+    color: blanchedalmond;
+    /* float: right; */
+    margin-right: 200px;
+}
+
+
+.button {
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor:pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ec2b1d;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;   
+    margin: 15px;
+    float: right;
+  }
+  
+  .button:hover {background-color: #8788e0}
+  
+  .button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
